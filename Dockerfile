@@ -1,12 +1,21 @@
-# Tags: latest, 1.11.0-debian-10-r35, 1.11.0, 1-debian-10, 1
+# Tags: latest, 1.11.0-debian-10-r38, 1.11.0, 1-debian-10, 1
 FROM bitnami/pytorch:latest
-FROM bitnami/pytorch:1.11.0-debian-10-r35
+FROM bitnami/pytorch:1.11.0-debian-10-r38
 FROM bitnami/pytorch:1.11.0
 FROM bitnami/pytorch:1-debian-10
 FROM bitnami/pytorch:1
 
 # Tags: _
 FROM bitnami/pytorch:_
+
+# Tags: 1.11.0-debian-10-r37
+FROM bitnami/pytorch:1.11.0-debian-10-r37
+
+# Tags: 1.11.0-debian-10-r36
+FROM bitnami/pytorch:1.11.0-debian-10-r36
+
+# Tags: 1.11.0-debian-10-r35
+FROM bitnami/pytorch:1.11.0-debian-10-r35
 
 # Tags: 1.11.0-debian-10-r34
 FROM bitnami/pytorch:1.11.0-debian-10-r34
@@ -82,12 +91,3 @@ FROM bitnami/pytorch:1.11.0-debian-10-r10
 
 # Tags: 1.11.0-debian-10-r9
 FROM bitnami/pytorch:1.11.0-debian-10-r9
-
-# Tags: 1.11.0-debian-10-r8
-FROM bitnami/pytorch:1.11.0-debian-10-r8
-
-# Tags: 1.11.0-debian-10-r6
-FROM bitnami/pytorch:1.11.0-debian-10-r6
-
-# Tags: 1.11.0-debian-10-r5
-FROM bitnami/pytorch:1.11.0-debian-10-r5
