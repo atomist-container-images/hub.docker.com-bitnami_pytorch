@@ -1,12 +1,42 @@
-# Tags: latest, 1.11.0-debian-10-r39, 1.11.0, 1-debian-10, 1
+# Tags: latest, 1.11.0-debian-10-r49, 1.11.0, 1-debian-10, 1
 FROM bitnami/pytorch:latest
-FROM bitnami/pytorch:1.11.0-debian-10-r39
+FROM bitnami/pytorch:1.11.0-debian-10-r49
 FROM bitnami/pytorch:1.11.0
 FROM bitnami/pytorch:1-debian-10
 FROM bitnami/pytorch:1
 
 # Tags: _
 FROM bitnami/pytorch:_
+
+# Tags: 1.11.0-debian-10-r48
+FROM bitnami/pytorch:1.11.0-debian-10-r48
+
+# Tags: 1.11.0-debian-10-r47
+FROM bitnami/pytorch:1.11.0-debian-10-r47
+
+# Tags: 1.11.0-debian-10-r46
+FROM bitnami/pytorch:1.11.0-debian-10-r46
+
+# Tags: 1.11.0-debian-10-r45
+FROM bitnami/pytorch:1.11.0-debian-10-r45
+
+# Tags: 1.11.0-debian-10-r44
+FROM bitnami/pytorch:1.11.0-debian-10-r44
+
+# Tags: 1.11.0-debian-10-r43
+FROM bitnami/pytorch:1.11.0-debian-10-r43
+
+# Tags: 1.11.0-debian-10-r42
+FROM bitnami/pytorch:1.11.0-debian-10-r42
+
+# Tags: 1.11.0-debian-10-r41
+FROM bitnami/pytorch:1.11.0-debian-10-r41
+
+# Tags: 1.11.0-debian-10-r40
+FROM bitnami/pytorch:1.11.0-debian-10-r40
+
+# Tags: 1.11.0-debian-10-r39
+FROM bitnami/pytorch:1.11.0-debian-10-r39
 
 # Tags: 1.11.0-debian-10-r38
 FROM bitnami/pytorch:1.11.0-debian-10-r38
@@ -61,33 +91,3 @@ FROM bitnami/pytorch:1.11.0-debian-10-r21
 
 # Tags: 1.11.0-debian-10-r20
 FROM bitnami/pytorch:1.11.0-debian-10-r20
-
-# Tags: 1.11.0-debian-10-r19
-FROM bitnami/pytorch:1.11.0-debian-10-r19
-
-# Tags: 1.11.0-debian-10-r18
-FROM bitnami/pytorch:1.11.0-debian-10-r18
-
-# Tags: 1.11.0-debian-10-r17
-FROM bitnami/pytorch:1.11.0-debian-10-r17
-
-# Tags: 1.11.0-debian-10-r16
-FROM bitnami/pytorch:1.11.0-debian-10-r16
-
-# Tags: 1.11.0-debian-10-r15
-FROM bitnami/pytorch:1.11.0-debian-10-r15
-
-# Tags: 1.11.0-debian-10-r14
-FROM bitnami/pytorch:1.11.0-debian-10-r14
-
-# Tags: 1.11.0-debian-10-r13
-FROM bitnami/pytorch:1.11.0-debian-10-r13
-
-# Tags: 1.11.0-debian-10-r12
-FROM bitnami/pytorch:1.11.0-debian-10-r12
-
-# Tags: 1.11.0-debian-10-r11
-FROM bitnami/pytorch:1.11.0-debian-10-r11
-
-# Tags: 1.11.0-debian-10-r10
-FROM bitnami/pytorch:1.11.0-debian-10-r10
